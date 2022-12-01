@@ -2,6 +2,7 @@ public class Item {
     public String name;
     public double price;
 
+    //zero argument constructor
     public Item(){}
 
     public Item(String name, double price) {
@@ -9,6 +10,7 @@ public class Item {
         this.price = price;
     }
 
+    //methods
     public String getName() {
         String output = this.name;
         return output;

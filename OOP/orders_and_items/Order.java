@@ -7,7 +7,7 @@ public class Order {
     private boolean ready;
     private ArrayList<Item> items;
 
-
+    //zero argument constructor
     public Order() {
         this.name = "customer";
         this.total = 0.0;
@@ -22,6 +22,7 @@ public class Order {
         this.items = new ArrayList<Item>();
     }
 
+    //methods
     public void displayOrder() {
         System.out.println ("Order for " + this.name);
         System.out.println("Item(s):");
